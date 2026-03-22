@@ -2,6 +2,7 @@
 #include <string.h> // for strcpy
 
 int main(){// main is always an int because it has to return the exit value 0=good, other #= bad
+    printf("Example 1\n\n");
     //an array that stores a character every element it needs in the array
     char str_a[20]; //20 chracter array but only 7 will be used the rest will just have garbage value unless you assing them something
     str_a[0] = 'H';
@@ -12,6 +13,8 @@ int main(){// main is always an int because it has to return the exit value 0=go
     str_a[5] = '\n';
     str_a[6] = 0; // null byte to let any function that is dealing with the string to stop operations there
     printf(str_a);
+
+    printf("\nExample 2\n\n");
 
     //manually putting the chracters is tedious so using strcpy is faster and easier to read
     char str_b[20];
