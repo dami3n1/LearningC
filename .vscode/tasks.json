@@ -9,7 +9,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/VSbuild/${fileBasenameNoExtension}"
+                "${fileDirname}/../VSbuild/${fileBasenameNoExtension}"
             ],
             "options": {
                 "cwd": "${fileDirname}"

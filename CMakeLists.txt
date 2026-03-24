@@ -22,7 +22,7 @@ endif()
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin/${ARCH_FOLDER})
 
 # Get all .c files in this folder
-file(GLOB C_FILES "*.c")
+file(GLOB C_FILES "src/*.c")
 
 # Loop through each file
 foreach(file ${C_FILES})
